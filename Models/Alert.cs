@@ -1,4 +1,4 @@
-class Alert
+public class Alert
 {
     public int Id { get; set; }
     public String ?Title { get; set; }
@@ -8,5 +8,5 @@ class Alert
     public Severity Severity { get; set; }
     public AlertStatus Status { get; set; }
     public DateTime CreatedAt  { get; set; } = DateTime.UtcNow;
-    public DateTime? ResovledAt { get; set; }
+    public DateTime? ResolvedAt { get; set; }
 }
